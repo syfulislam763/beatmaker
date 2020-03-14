@@ -23,7 +23,7 @@ const createBubbles = index => {
     const bubble = document.createElement("div");
     visual.appendChild(bubble);
     bubble.style.backgroundColor = colors[index];
-    bubble.style.animation = `jump 1s ease`;
+    bubble.style.animation = `jump 5s ease`;
 
     bubble.addEventListener("animationend", function() {
         visual.removeChild(this);

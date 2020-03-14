@@ -4,9 +4,11 @@
 }
 
 .app {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header {
@@ -32,10 +34,12 @@
     height: 100px;
     width: 150px;
     flex: 1;
-    margin-top: 310px;
+    margin-top: px;
 }
 
 .pads {
+    background: lightblue;
+    width: 100%;
     display: flex;
 }
 
